@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    margin: 1%;
+    width: 20%;
+    height: 35%;
+    text-align: center;
+}
+
+.card-innards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 95%;
+}
+
+.delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: baseline;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}

@@ -1,0 +1,7 @@
+.ideas {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 75%;
+    height: 75%;
+}
